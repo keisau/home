@@ -42260,19 +42260,6 @@ return /******/ (function(modules) { // webpackBootstrap
 							_react2.default.createElement(
 								_reactBootstrap.Col,
 								{ className: 'left', md: 12 },
-								_react2.default.createElement(
-									'div',
-									{ className: 'larger' },
-									'bat1gei3 is a Cantonese Chinese phonetic of the word 「筆記」, which means "Note"'
-								)
-							)
-						),
-						_react2.default.createElement(
-							_reactBootstrap.Row,
-							null,
-							_react2.default.createElement(
-								_reactBootstrap.Col,
-								{ className: 'left', md: 12 },
 								_react2.default.createElement('i', { className: 'fa fa-copyright' }),
 								' 2016 All Rights Reserved.',
 								_react2.default.createElement('br', null),
@@ -47911,9 +47898,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	obj || (obj = {});
 	var __t, __p = '';
 	with (obj) {
-	__p += '<!DOCTYPE html>\n<html>\n	<head>\n		<title>Home | PierreSaux</title>\n		<meta name=\'viewport\' content=\'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\' charset=\'UTF-8\'>\n		<link rel=\'stylesheet\' href=\'/styles.css\'>\n	</head>\n	<body data-no-turbolink data-no-transition-cache>\n		' +
+	__p += '<!DOCTYPE html>\n<html>\n	<head>\n		<title>Home | PierreSaux</title>\n		<meta name=\'viewport\' content=\'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\' charset=\'UTF-8\'>\n		<link rel=\'stylesheet\' href=\'styles.css\'>\n	</head>\n	<body data-no-turbolink data-no-transition-cache>\n		' +
 	((__t = ( text )) == null ? '' : __t) +
-	'\n		<script type=\'text/javascript\' src=\'/bundle.js\'></script>\n	</body>\n</html>\n';
+	'\n		<script type=\'text/javascript\' src=\'bundle.js\'></script>\n	</body>\n</html>\n';
 	
 	}
 	return __p

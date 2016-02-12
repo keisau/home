@@ -9273,7 +9273,7 @@ button.close {
 	url('../fonts/HiraKakuProN-W3.woff')
 }
 */
-#mainSection #appContainer #footer:before, #mainSection #appContainer #footer:after {
+#appContainer #footer:before, #appContainer #footer:after {
   content: "" !important;
   display: table !important;
   clear: both !important; }
@@ -9293,22 +9293,22 @@ button.close {
 /**
  * included styles
  */
-#mainSection #appContainer {
+#appContainer {
   /* spinning loader */
   /* nav bar */
   /* header */
   /* not found */
   /* footer */ }
-  #mainSection #appContainer a, #mainSection #appContainer a:hover, #mainSection #appContainer a:visited {
+  #appContainer a, #appContainer a:hover, #appContainer a:visited {
     color: #484848;
     text-decoration: none; }
-  #mainSection #appContainer .logo {
+  #appContainer .logo {
     padding-right: 8px;
     color: gray;
     font-size: 14px; }
-    #mainSection #appContainer .logo a, #mainSection #appContainer .logo a:hover, #mainSection #appContainer .logo a:visited {
+    #appContainer .logo a, #appContainer .logo a:hover, #appContainer .logo a:visited {
       text-decoration: none; }
-  #mainSection #appContainer .vertical {
+  #appContainer .vertical {
     /* vertical orientation */
     -ms-writing-mode: tb-rl;
     /* old syntax. IE */
@@ -9321,7 +9321,7 @@ button.close {
     -moz-text-orientation: upright;
     -ms-text-orientation: upright;
     text-orientation: upright; }
-  #mainSection #appContainer #spinningLoader {
+  #appContainer #spinningLoader {
     z-index: 2048;
     position: fixed;
     left: 0;
@@ -9330,7 +9330,7 @@ button.close {
     height: 100%;
     background-color: white;
     opacity: 0.7; }
-  #mainSection #appContainer .navBar {
+  #appContainer .navBar {
     position: fixed;
     top: 0;
     left: 0;
@@ -9339,33 +9339,33 @@ button.close {
     z-index: 128;
     opacity: 0.9;
     font-weight: 200; }
-    #mainSection #appContainer .navBar nav {
+    #appContainer .navBar nav {
       border: none;
       border-radius: 0; }
   @media print {
-    #mainSection #appContainer .navBar {
+    #appContainer .navBar {
       display: none; } }
-  #mainSection #appContainer #header {
+  #appContainer #header {
     padding-top: 52px;
     padding-bottom: 16px; }
-  #mainSection #appContainer #notFoundContainer {
+  #appContainer #notFoundContainer {
     padding: 24px 0;
     color: #484848; }
-  #mainSection #appContainer #footer {
+  #appContainer #footer {
     padding: 12px 0;
     font-weight: 200; }
-    #mainSection #appContainer #footer .left {
+    #appContainer #footer .left {
       font-size: 10px;
       padding-bottom: 24px; }
-      #mainSection #appContainer #footer .left a, #mainSection #appContainer #footer .left a:hover, #mainSection #appContainer #footer .left a:visited {
+      #appContainer #footer .left a, #appContainer #footer .left a:hover, #appContainer #footer .left a:visited {
         font-size: 12px; }
-      #mainSection #appContainer #footer .left a:hover {
+      #appContainer #footer .left a:hover {
         color: #8c8c8c; }
-      #mainSection #appContainer #footer .left .larger {
+      #appContainer #footer .left .larger {
         font-size: 16px;
         width: 320px;
         word-wrap: break-word; }
-    #mainSection #appContainer #footer .right {
+    #appContainer #footer .right {
       text-align: right; }
 
 @-ms-viewport {
